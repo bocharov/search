@@ -1,0 +1,27 @@
+{
+    "name": "bocharov/search",
+    "type": "library",
+    "description": "This bundle provides Search capabilities through ElasticSearch.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Bocharov",
+            "email": "bocharov.alexandr@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+		"doctrine/common": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bocharov\\Search\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
